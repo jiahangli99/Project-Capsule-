@@ -1,0 +1,43 @@
+body {
+    background-color: tan
+}
+h1 {
+    text-align: center;
+    background-color: rgb(103, 219, 103);
+    color: white
+} 
+h2 {
+    text-align: center;
+    padding-right: 30px;
+}
+ul {
+    list-style: none;
+}
+.liclass {
+    list-style: none;
+    text-align: center;
+}
+#add {
+    margin: 0px 20px 0px 20px;
+}
+.newbutton{
+    margin: 0px 20px 0px 20px;
+    background-color: red;
+}
+.newli {
+    padding-left: 720px;
+    padding-bottom: 40px;
+    color: blue
+}
+img {
+    display: grid;
+    width: 500px;
+    height: 300px;
+    align-self: flex-end;
+    flex-direction: column;
+}
+#input {
+border-radius: 30px;
+border-width: 5px;
+}
+
