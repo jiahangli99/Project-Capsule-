@@ -12,7 +12,7 @@ $(function () {
         })
     };
     function renderOne(gamerStats) {
-        $('.maintwo').html(`
+        $('.mainone').html(`
         <span class="one"><img src=${gamerStats.cards[0].image}><img src=${gamerStats.cards[1].image}></span>
         `)
     }
