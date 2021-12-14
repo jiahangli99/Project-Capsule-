@@ -1,0 +1,97 @@
+body {
+    display: grid;
+    background-image: url('https://planetarium.truman.edu/files/2017/10/Space-background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 400px 428px;
+    grid-template-areas: 
+    "a a a"
+    "c1 stats c2"
+    "d1 ul d2" 
+}
+h1 {
+    grid-area: a;
+    font-size: 100px;
+    text-align: center;
+    color: beige;
+    padding-right: 20px;
+}
+h2 {
+    grid-area: a;
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+    padding-right: 20px;
+    padding-top: 150px;
+}
+.promptbutton {
+    grid-area: stats;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.one { 
+    grid-area: c1;
+    flex-direction: column-reverse;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+grid-row-end: end;
+justify-content: space-evenly;
+position: fixed;
+left: 30px;
+top: 100px;
+
+
+}
+.maintwo {
+    grid-area: c2;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    justify-items: end;
+justify-content: space-evenly;
+position: fixed;
+right: 30px;
+top: 100px;
+
+}
+.formone { 
+    grid-area: d1;  
+    position: fixed;
+left: 140px;
+bottom: 100px;
+
+ }
+ .formtwo {
+    grid-area: d2;
+    position: fixed;
+    right: 140px;
+bottom: 100px;
+
+ }
+.reddeck {
+    width: 230px; 
+    height: 290px; 
+    object-fit: cover;
+}
+.bluedeck {
+    width: 230px;
+    height: 290px; 
+    object-fit: cover;
+}
+ul {
+    grid-area: ul;
+    color: white;
+    font-size: 30px;
+    list-style: none;
+}
+.promptbutton {
+    width: 100px;
+    height: 100px; 
+    object-fit: cover;
+    position: fixed;
+right: 920px;
+top: 300px;
+
+}
