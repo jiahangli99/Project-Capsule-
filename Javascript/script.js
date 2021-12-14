@@ -40,7 +40,7 @@ $(function () {
         if (prompNumber === 21) {
             alert('YOU WON!!! the probability of drawing 21 is 4.8%');
         } else if(prompNumber > 21) {
-            alert('YOU WON!!! the probability of getting 2 aces is 0.6%, go buy a lottery NOW!!!')
+            alert('YOU WON!!! the probability of getting 2 aces is 0.6%')
         } else if(prompNumber < 21 && prompNumber >= 19) {
             alert('SO CLOSE!!!')
         } else {
