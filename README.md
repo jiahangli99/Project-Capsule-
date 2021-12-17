@@ -27,3 +27,6 @@ A web application that holds some of the prior projects (21 game, Weather, Skill
 
 * Add more features to the card game
 * Add more styles to the pages
+
+## LINK
+https://jiahangli99.github.io/Project-Capsule-/
