@@ -30,3 +30,6 @@ A web application that holds some of the prior projects (21 game, Weather, Skill
 
 ## LINK
 https://projectcapsule.netlify.app/
+
+## PASSOWRD 
+123
